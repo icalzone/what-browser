@@ -1,0 +1,21 @@
+{
+  "name": "saas-debug",
+  "version": "0.1.0",
+  "description": "SAAS Browser Information Debug Page",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-loader": "^8.0.2",
+    "bowser": "^2.0.0-beta.3",
+    "webpack": "^4.17.2",
+    "webpack-command": "^0.4.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production --config webpack.config.js"
+  },
+  "author": "Jacob Burenstam Linder",
+  "license": "MIT"
+}
